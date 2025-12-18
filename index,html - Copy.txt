@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heal Meals | Nourish Your Body</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f9fdfb;
+      color: #2f3e3a;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #6fbf9b;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #4a7c6b;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #4a7c6b;
+    }
+
+    .cta {
+      background: #e6f4ef;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .cta a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 30px;
+      background: #6fbf9b;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f1f5f3;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Heal Meals</h1>
+    <p>Nourishing food made to heal, energize, and restore</p>
+  </header>
+
+  <section>
+    <h2>Our Mission</h2>
+    <p style="text-align:center;">
+      At Heal Meals, we believe food is medicine. Our meals are crafted with
+      whole, nutrient-dense ingredients designed to support your body and mind.
+    </p>
+  </section>
+
+  <section>
+    <h2>What We Offer</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Healthy Meal Prep</h3>
+        <p>Balanced meals made with fresh, clean ingredients.</p>
+      </div>
+      <div class="card">
+        <h3>Healing Nutrition</h3>
+        <p>Meals designed to support digestion, energy, and wellness.</p>
+      </div>
+      <div class="card">
+        <h3>Custom Plans</h3>
+        <p>Personalized meals tailored to your lifestyle and goals.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Start Your Healing Journey</h2>
+    <p>Fuel your body with food that truly cares for you.</p>
+    <a href="#">Contact Us</a>
+  </section>
+
+  <footer>
+    © 2025 Heal Meals. All rights reserved.
+  </footer>
+
+</body>
+</html>
